@@ -4,9 +4,24 @@ Welcome to the OctoAcme project management documentation hub. This README serves
 
 OctoAcme runs cross-functional projects with a lightweight, iterative lifecycle and clear ownership from the start. Work begins in **Initiation**, where a project idea is validated via a concise **Project One-pager** (problem, SMART goal, success metrics), along with an initial stakeholder and communication plan, high-level milestones, early risks, and rough resourcing. A simple decision gate—assessing clarity of metrics, stakeholder priority alignment, and team availability—determines whether the effort moves forward into planning.
 
-Roles are intentionally explicit to reduce ambiguity: the **Project Manager (PM)** coordinates schedules, risks, dependencies, and recurring communications; the **Product Manager / Product Lead (PdM)** defines outcomes, prioritizes the backlog, and measures success; **Developers** design, build, and test while contributing estimates and surfacing technical risks; **QA/Testing** validates against acceptance criteria; and **Stakeholders/Sponsors** provide input and approvals. Execution emphasizes consistent team rhythm, visible work flow, and fast escalation when needed—teams use a board with stages from Backlog through Done, operate with daily standups, a weekly delivery sync, and end-of-sprint demos, while tracking progress against the success metrics defined in the one-pager.
+Roles are intentionally explicit to reduce ambiguity. Each function has a defined owner:
 
-Communication and quality assurance are treated as first-class workflows. Stakeholder updates are structured around a single source of truth and regular status notes covering progress, next steps, risks/blockers, and asks/decisions. Risks are managed through a maintained **risk register** reviewed at weekly syncs, with a clear escalation path. Quality practices include unit/integration testing, end-to-end smoke tests, security scanning in CI, and manual QA when needed; releases follow pre-flight requirements and staged deployment with post-deploy verification. After each sprint, release, milestone, or incident, OctoAcme closes the loop with **blameless retrospectives** that produce a small set of owned, time-bound improvements tracked back in the backlog.
+- **Project Manager (PM)** — coordinates schedules, risks, dependencies, and recurring communications
+- **Product Manager / Product Lead (PdM)** — defines outcomes, prioritizes the backlog, and measures success
+- **Developers** — design, build, and test while contributing estimates and surfacing technical risks
+- **QA/Testing** — validates work against acceptance criteria and the Definition of Done
+- **Stakeholders/Sponsors** — provide input, decisions, and approvals at key gates
+
+Execution emphasizes consistent team rhythm, visible work flow, and fast escalation when needed. Teams use a project board with stages from Backlog through Done, run daily standups, a weekly delivery sync, and end-of-sprint demos, tracking progress against the success metrics defined in the one-pager.
+
+Communication and quality assurance are treated as first-class workflows. Stakeholder updates are structured around a single source of truth and regular status notes covering progress, next steps, risks/blockers, and asks/decisions. Risks are managed through a maintained **risk register** reviewed at weekly syncs, with a clear escalation path from team triage to PM, Product Lead, and Sponsor. Quality practices include:
+
+- Unit and integration testing
+- End-to-end smoke tests for critical flows
+- Security scanning in CI
+- Manual QA when needed
+
+Releases follow pre-flight requirements and staged deployment with post-deploy verification. After each sprint, release, milestone, or incident, OctoAcme closes the loop with **blameless retrospectives** that produce a small set of owned, time-bound improvements tracked back in the backlog.
 
 ## Process Documentation
 
